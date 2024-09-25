@@ -1,9 +1,13 @@
+using crud.Data;
+using crud.Employees;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<AppDbContext>(); // db configuration
 
 var app = builder.Build();
 
@@ -16,12 +20,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Rotas
-app.MapGet("hello_world", () => 
-    "hello world"
-);
+// ------------------ Endpoints
 
-
+// Endpoint to add employees
+app.AddEmployeesEndpoints();
 
 
 // Servidor rodando
