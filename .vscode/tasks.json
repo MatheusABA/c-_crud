@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "d:\\Programming\\C#\\crud",
+			"problemMatcher": [],
+			"label": "Live Preview: Executar Servidor"
+		}
+	]
+}

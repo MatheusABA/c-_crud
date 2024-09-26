@@ -10,7 +10,7 @@ namespace crud.Data;
 public class AppDbContext : DbContext
 {
     // DbSet -> instruct EF to transform Employee Class into a Database Table
-    DbSet<Employee> Employees {get; set;}
+    public DbSet<Employee> Employees {get; set;}
 
 
     // connection
