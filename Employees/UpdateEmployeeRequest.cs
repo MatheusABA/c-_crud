@@ -5,6 +5,5 @@ using System.Threading.Tasks;
 
 namespace crud.Employees;
 
-// record => create all the crud endpoints
-public record AddEmployeeRequest(string Name, string Email, string Function);
 
+public record UpdateEmployeeRequest(string Function);

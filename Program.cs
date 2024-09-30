@@ -23,7 +23,7 @@ app.UseHttpsRedirection();
 // ------------------ Endpoints
 
 // Endpoint to add employees
-app.AddEmployeesEndpoints();
+app.REST_EmployeesEndpoints();
 
 
 // Servidor rodando

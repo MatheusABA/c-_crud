@@ -50,7 +50,6 @@ D:\Programming\C#\crud\bin\Debug\net8.0\Npgsql.dll
 D:\Programming\C#\crud\bin\Debug\net8.0\SharpCompress.dll
 D:\Programming\C#\crud\bin\Debug\net8.0\Snappier.dll
 D:\Programming\C#\crud\bin\Debug\net8.0\SQLitePCLRaw.core.dll
-D:\Programming\C#\crud\bin\Debug\net8.0\System.Text.Json.dll
 D:\Programming\C#\crud\bin\Debug\net8.0\ZstdSharp.dll
 D:\Programming\C#\crud\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
 D:\Programming\C#\crud\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
